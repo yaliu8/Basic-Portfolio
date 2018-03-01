@@ -1,0 +1,132 @@
+body{
+     background-image: url("../image/circles-light.png");
+     background-color: #cccccc;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+
+.top-right {
+    position: relative;
+  text-align: center;
+    position: fixed;
+    width:100%;
+    background: white;
+    z-index:1;
+     border-bottom: 3px solid #cccccc;
+}
+
+
+.top-right ul {
+    padding-left: 20px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.top-right li {
+        float: right;
+        border-left: 1px solid #cccccc;
+
+}
+
+.top-right img {
+  float: left;
+}
+
+.top-right a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration:none;
+
+}
+
+.top-right a:hover:not(.active) {
+
+}
+
+.active {
+    background-color: ;
+}
+
+
+.About{
+  margin-top: 200px;
+  margin-left: 100px;
+  text-align: center;
+  float: left;
+  border: 1px solid #dddddd;
+  background: white;
+  padding: 20px
+}
+
+p ,h1, h2, .skills {
+ font-family: 'Raleway', sans-serif;
+}
+
+
+.Portfolio{
+  background:  White;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.Contact{
+    margin-top: 200px;
+  float: right;
+  border: 1px solid #dddddd;
+  background: white;
+  padding: 35px;
+  text-align: center;
+}
+
+.Contact img {
+  padding-top: 20px
+}
+
+.frontend , .backend, .other {
+  display: inline-block;
+    padding: 25px
+}
+
+ul {
+      list-style-type: none;
+}
+
+.top-right img {
+
+  padding-top: 5px;
+  padding-left: 5px;
+
+}
+
+
+h2 {
+     font-size: 50px;
+     color: #4aaaa5;
+}
+
+.foot {
+ border-top: 5px solid #4aaaa5;
+  position: fixed;
+  padding: 25px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+}
+
+
+.Contact img {
+  padding-left: 25px
+}
